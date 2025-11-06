@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - AiCOD Solutions Limited</title>
+    <meta name="description" content="Stay updated with the latest technology trends, digital insights, and company news from AiCOD Solutions Limited.">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="AICOD SOLUTIONS LOGO.jpg" alt="AiCOD Solutions Logo" class="logo-img">
+                <span class="logo-text">AiCOD Solutions</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="services.html" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="portfolio.html" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="blog.html" class="nav-link active">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact Us</a>
+                </li>
+                <li class="nav-item site-search-nav-item">
+                    <form class="site-search-form" autocomplete="off">
+                        <input type="text" id="site-search-input" placeholder="Search..." aria-label="Search site">
+                        <button type="submit" id="site-search-btn" aria-label="Search"><i class="fas fa-search"></i></button>
+                        <div class="search-results-dropdown" id="search-results-dropdown"></div>
+                    </form>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Blog</h1>
+            <p>Latest insights, tips, and news from the world of technology</p>
+        </div>
+    </section>
+
+    <!-- Blog Categories -->
+    <section class="blog-categories">
+        <div class="container">
+            <div class="category-buttons">
+                <button class="category-btn active" data-category="all">All Posts</button>
+                <button class="category-btn" data-category="technology">Technology</button>
+                <button class="category-btn" data-category="business">Business</button>
+                <button class="category-btn" data-category="tips">Tips & Tricks</button>
+                <button class="category-btn" data-category="company">Company News</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Posts -->
+    <section class="blog-posts">
+        <div class="container">
+            <div class="blog-grid">
+                <!-- Featured Post -->
+                <article class="blog-post featured" data-category="technology">
+                    <div class="post-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Digital Transformation">
+                        <div class="post-category">Technology</div>
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="post-date"><i class="fas fa-calendar"></i> January 15, 2024</span>
+                            <span class="post-author"><i class="fas fa-user"></i> AiCOD Team</span>
+                        </div>
+                        <h2>Digital Transformation: Why Your Business Needs It in 2024</h2>
+                        <p>Digital transformation is no longer optional for businesses. In today's competitive landscape, companies that embrace digital technologies are more likely to succeed and grow. This comprehensive guide explores why digital transformation is crucial and how to implement it effectively.</p>
+                        <div class="post-tags">
+                            <span class="tag">Digital Transformation</span>
+                            <span class="tag">Business Strategy</span>
+                            <span class="tag">Technology</span>
+                        </div>
+                        <a href="#" class="read-more">Read Full Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Regular Posts -->
+                <article class="blog-post" data-category="mobile-apps">
+                    <div class="post-image">
+                        <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Mobile App Development">
+                        <div class="post-category">Technology</div>
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="post-date"><i class="fas fa-calendar"></i> January 12, 2024</span>
+                            <span class="post-author"><i class="fas fa-user"></i> I. Alfred</span>
+                        </div>
+                        <h3>Mobile App Development Trends to Watch in 2024</h3>
+                        <p>Discover the latest trends in mobile app development that will shape the industry in 2024. From AI integration to cross-platform development, learn what technologies are driving innovation.</p>
+                        <div class="post-tags">
+                            <span class="tag">Mobile Apps</span>
+                            <span class="tag">Development</span>
+                            <span class="tag">Trends</span>
+                        </div>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="blog-post" data-category="security">
+                    <div class="post-image">
+                        <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Cybersecurity">
+                        <div class="post-category">Tips & Tricks</div>
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="post-date"><i class="fas fa-calendar"></i> January 10, 2024</span>
+                            <span class="post-author"><i class="fas fa-user"></i> N. Wyclife</span>
+                        </div>
+                        <h3>Cybersecurity Best Practices for Small Businesses</h3>
+                        <p>Protect your business from cyber threats with these essential security practices. Learn about password management, data backup, and employee training strategies.</p>
+                        <div class="post-tags">
+                            <span class="tag">Cybersecurity</span>
+                            <span class="tag">Security</span>
+                            <span class="tag">Business</span>
+                        </div>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="blog-post" data-category="company">
+                    <div class="post-image">
+                        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Company Growth">
+                        <div class="post-category">Company News</div>
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="post-date"><i class="fas fa-calendar"></i> January 8, 2024</span>
+                            <span class="post-author"><i class="fas fa-user"></i> AiCOD Team</span>
+                        </div>
+                        <h3>AiCOD Solutions Celebrates 3 Years of Innovation</h3>
+                        <p>We're excited to celebrate our third anniversary! Learn about our journey, achievements, and plans for the future as we continue to serve the Ugandan business community.</p>
+                        <div class="post-tags">
+                            <span class="tag">Anniversary</span>
+                            <span class="tag">Growth</span>
+                            <span class="tag">Innovation</span>
+                        </div>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="blog-post" data-category="web-design">
+                    <div class="post-image">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Web Design">
+                        <div class="post-category">Technology</div>
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="post-date"><i class="fas fa-calendar"></i> January 5, 2024</span>
+                            <span class="post-author"><i class="fas fa-user"></i> N. Wyclife</span>
+                        </div>
+                        <h3>Essential Elements of a High-Converting Website</h3>
+                        <p>Learn the key components that make websites effective at converting visitors into customers. From compelling copy to strategic CTAs, discover what drives results.</p>
+                        <div class="post-tags">
+                            <span class="tag">Web Design</span>
+                            <span class="tag">Conversion</span>
+                            <span class="tag">UX/UI</span>
+                        </div>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="blog-post" data-category="training">
+                    <div class="post-image">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="ICT Training">
+                        <div class="post-category">Tips & Tricks</div>
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="post-date"><i class="fas fa-calendar"></i> January 3, 2024</span>
+                            <span class="post-author"><i class="fas fa-user"></i> Training Team</span>
+                        </div>
+                        <h3>5 Essential Digital Skills for the Modern Workplace</h3>
+                        <p>In today's digital world, certain skills are essential for career success. Discover the top 5 digital skills that will help you thrive in the modern workplace.</p>
+                        <div class="post-tags">
+                            <span class="tag">Digital Skills</span>
+                            <span class="tag">Training</span>
+                            <span class="tag">Career</span>
+                        </div>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="blog-post" data-category="business">
+                    <div class="post-image">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Business Strategy">
+                        <div class="post-category">Business</div>
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="post-date"><i class="fas fa-calendar"></i> December 30, 2023</span>
+                            <span class="post-author"><i class="fas fa-user"></i> Business Team</span>
+                        </div>
+                        <h3>How Technology is Reshaping Small Business Operations</h3>
+                        <p>Explore how small businesses are leveraging technology to streamline operations, reduce costs, and improve customer service in the digital age.</p>
+                        <div class="post-tags">
+                            <span class="tag">Business</span>
+                            <span class="tag">Technology</span>
+                            <span class="tag">Operations</span>
+                        </div>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="blog-post" data-category="tips">
+                    <div class="post-image">
+                        <img src="https://images.unsplash.com/photo-1588702547919-26089e690ecc?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Computer Maintenance">
+                        <div class="post-category">Tips & Tricks</div>
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="post-date"><i class="fas fa-calendar"></i> December 28, 2023</span>
+                            <span class="post-author"><i class="fas fa-user"></i> Tech Support</span>
+                        </div>
+                        <h3>Computer Maintenance Tips to Keep Your System Running Smoothly</h3>
+                        <p>Regular maintenance is key to keeping your computer running efficiently. Learn simple tips and tricks to extend your computer's lifespan and improve performance.</p>
+                        <div class="post-tags">
+                            <span class="tag">Maintenance</span>
+                            <span class="tag">Computer Care</span>
+                            <span class="tag">Performance</span>
+                        </div>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Load More Button -->
+            <div class="load-more-container">
+                <button class="load-more-btn">Load More Posts</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Subscription -->
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Stay Updated</h2>
+                <p>Subscribe to our newsletter for the latest tech insights, tips, and company updates</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="AICOD SOLUTIONS LOGO.jpg" alt="AiCOD Solutions Logo" class="footer-logo-img">
+                        <h3>AiCOD Solutions Limited</h3>
+                    </div>
+                    <p>Empowering businesses through innovative digital solutions, exceptional service, and continuous learning.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html#web-design">Website Design</a></li>
+                        <li><a href="services.html#mobile-apps">Mobile App Development</a></li>
+                        <li><a href="services.html#ict-training">ICT Training</a></li>
+                        <li><a href="services.html#computer-repair">Computer Repair</a></li>
+                        <li><a href="services.html#research">Research Assistance</a></li>
+                        <li><a href="services.html#security">Security Solutions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="about.html#team">Our Team</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> Plot 22, Bushekwiire Road, Kabale (Mukikolegyi), Uganda</p>
+                        <p><i class="fas fa-phone"></i> +256-771097982, +256-782937175</p>
+                        <p><i class="fas fa-envelope"></i> aicodsolutions@gmail.com</p>
+                        <p><i class="fas fa-clock"></i> Mon-Sat: 9AM-6PM, Sun: 2PM-5PM</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 AiCOD Solutions Limited. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/256771097982" class="whatsapp-btn" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html> 

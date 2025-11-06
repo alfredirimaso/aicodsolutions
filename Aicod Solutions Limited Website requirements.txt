@@ -1,0 +1,15 @@
+Aicod Solutions Limited - Complete Website Plan
+ 1. Site Structure (Pages & Routing)- Home: Hero + CTA, Services Summary, Why Choose Us, Testimonials, Blog & Portfolio Preview- About: Overview, Mission & Vision, Team Bios, Location- Services: Details on Website Design, Mobile Apps, ICT Training, etc.- Portfolio: Grid-style project gallery- Blog: Company news, tech tips- Contact: Form, Map, WhatsApp, Hours- Admin Dashboard: Manage blog, testimonials, portfolio
+ 2. Design & Branding- Colors: Blue (#007BFF), Orange (#FF6B00), White, Light Gray- Fonts: Headings - Poppins/Montserrat; Body - Roboto/Open Sans- Images: Office photos + tech stock images
+ 3. Functionality & Features- Mobile responsive- Contact form (to aicodsolutionsltd@gmail.com)- WhatsApp button- Testimonials slider- Portfolio gallery- Blog system- Admin dashboard (login protected)- SEO-ready structure
+ 4. Technology Stack- Frontend: HTML5, CSS3, JavaScript- Optional: Tailwind CSS or Bootstrap- Forms: HTML + JS + Formspree or PHP- Backend: JSON or SQLite (light CMS)- Hosting: User's hosting account
+5. Admin Dashboard Functionality- Login system- Manage blog posts (Add/Edit/Delete)- Manage portfolio (upload/edit)- Manage testimonials (text/image)
+ 6. Deployment Plan
+ 1. Finalize design
+ 2. Code HTML/CSS templates
+ 3. Add interactivity (JS)
+ 4. Develop admin backend
+ 5. Testing
+ 6. Upload to host
+ 7. Configure SEO & analytics
+ 7. Content Checklist (To Provide)- Company About info- Detailed service descriptions- Testimonials- Portfolio items (images/descriptions)- Blog post drafts- Social media link
