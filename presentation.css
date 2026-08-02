@@ -1,0 +1,374 @@
+/* AiCOD Solutions Limited - Company Presentation (Reveal.js theme overrides) */
+
+:root {
+    --primary-color: #0066ff;
+    --secondary-color: #ff6b00;
+    --dark-gray: #1a1f2b;
+    --light-gray: #f4f7fb;
+}
+
+.reveal {
+    font-family: 'Plus Jakarta Sans', 'Roboto', sans-serif;
+    color: var(--dark-gray);
+}
+
+.reveal .slides section {
+    text-align: left;
+    padding: 20px 10px;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-transform: none;
+    letter-spacing: 0;
+    color: var(--dark-gray);
+}
+
+.reveal h2 {
+    color: var(--primary-color);
+    margin-bottom: 30px;
+    position: relative;
+    padding-bottom: 14px;
+}
+
+.reveal h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 70px;
+    height: 5px;
+    border-radius: 5px;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+}
+
+.accent {
+    color: var(--secondary-color);
+}
+
+/* Title slide */
+.slide-title {
+    text-align: center !important;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.deck-logo {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 102, 255, 0.25);
+    margin-bottom: 24px;
+}
+
+.slide-title h1 {
+    font-size: 2.6rem;
+    margin-bottom: 12px;
+}
+
+.slide-title .subtitle {
+    font-size: 1.3rem;
+    color: var(--dark-gray);
+    opacity: 0.8;
+    margin-bottom: 8px;
+}
+
+.slide-title .meta {
+    font-size: 1rem;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+/* Agenda */
+.agenda-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+}
+
+.agenda-list li {
+    font-size: 1.1rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 16px 20px;
+    background: var(--light-gray);
+    border-radius: 12px;
+    border-left: 4px solid var(--primary-color);
+}
+
+.agenda-list li i {
+    color: var(--primary-color);
+    font-size: 1.3rem;
+}
+
+/* Lead paragraph */
+.reveal .lead {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 900px;
+}
+
+/* Stats row */
+.stats-row {
+    display: flex;
+    gap: 24px;
+    margin-top: 40px;
+}
+
+.stat-box {
+    flex: 1;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: #fff;
+    border-radius: 16px;
+    padding: 24px;
+    text-align: center;
+}
+
+.stat-box h3 {
+    font-size: 2.2rem;
+    color: #fff;
+    margin: 0 0 6px;
+}
+
+.stat-box p {
+    margin: 0;
+    font-size: 0.95rem;
+    opacity: 0.95;
+}
+
+/* Two column cards */
+.two-col {
+    display: flex;
+    gap: 24px;
+    margin-top: 20px;
+}
+
+.card {
+    flex: 1;
+    background: var(--light-gray);
+    border-radius: 16px;
+    padding: 28px;
+    border-top: 4px solid var(--primary-color);
+}
+
+.card-icon {
+    font-size: 2rem;
+    color: var(--secondary-color);
+    margin-bottom: 12px;
+}
+
+.card h3 {
+    margin: 0 0 10px;
+    font-size: 1.3rem;
+}
+
+.card p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Values grid */
+.values-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.value-chip {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: #fff;
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    padding: 16px 24px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 1.05rem;
+}
+
+.value-chip i {
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+}
+
+/* Services grid */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.service-item {
+    background: var(--light-gray);
+    border-radius: 14px;
+    padding: 28px 18px;
+    text-align: center;
+}
+
+.service-item i {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 14px;
+}
+
+.service-item h4 {
+    margin: 0;
+    font-size: 1.05rem;
+}
+
+/* Objectives */
+.objectives-list {
+    list-style: none;
+    margin: 20px 0 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.objectives-list li {
+    font-size: 1.15rem;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    background: var(--light-gray);
+    padding: 16px 22px;
+    border-radius: 12px;
+}
+
+.objectives-list li i {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+}
+
+/* Org chart */
+.org-chart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.org-node {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.95rem;
+    padding: 14px 18px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 6px 16px rgba(0, 102, 255, 0.2);
+}
+
+.org-ceo {
+    font-size: 1.15rem;
+    padding: 16px 32px;
+}
+
+.org-connector {
+    width: 2px;
+    height: 30px;
+    background: var(--primary-color);
+}
+
+.org-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+    margin-top: 10px;
+}
+
+.org-row .org-node {
+    flex: 1 1 150px;
+    max-width: 190px;
+    background: #fff;
+    color: var(--dark-gray);
+    border: 2px solid var(--primary-color);
+    box-shadow: none;
+}
+
+/* Contact slide */
+.slide-contact {
+    text-align: center !important;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    font-size: 1.1rem;
+}
+
+.contact-grid i {
+    color: var(--secondary-color);
+    width: 22px;
+}
+
+.contact-actions {
+    margin-top: 30px;
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btn-back,
+.btn-download {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    padding: 12px 28px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.btn-back {
+    background: var(--primary-color);
+}
+
+.btn-back:hover {
+    background: var(--secondary-color);
+}
+
+.btn-download {
+    background: var(--secondary-color);
+}
+
+.btn-download:hover {
+    background: var(--primary-color);
+}
+
+@media (max-width: 900px) {
+    .agenda-list,
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+    .two-col,
+    .stats-row {
+        flex-direction: column;
+    }
+}
