@@ -17,6 +17,7 @@ A professional, responsive website for AiCOD Solutions Limited, a technology com
 - **Portfolio Page**: Project gallery with filtering capabilities
 - **Blog Page**: Company news, tech tips, and industry insights
 - **Contact Page**: Contact form, business hours, location details
+- **Presentation Page**: In-browser company slide deck (`presentation.html`) covering the company overview, mission & vision, services, strategic objectives, and organizational structure — with a downloadable PowerPoint version
 
 ### Interactive Features
 - **Mobile Navigation**: Hamburger menu for mobile devices
@@ -43,6 +44,10 @@ aicod-website/
 ├── portfolio.html          # Portfolio page
 ├── blog.html              # Blog page
 ├── contact.html           # Contact page
+├── presentation.html      # Company slide deck (reveal.js)
+├── presentation.css       # Slide deck styling
+├── AiCOD_Solutions_Company_Presentation.pptx # Downloadable PowerPoint version
+├── scripts/generate_pptx.py # Script that (re)generates the .pptx deck
 ├── styles.css             # Main stylesheet
 ├── script.js              # JavaScript functionality
 ├── AICOD SOLUTIONS LOGO.jpg # Company logo
@@ -93,6 +98,26 @@ The color scheme is defined in CSS variables at the top of `styles.css`:
 - Replace placeholder images with actual company photos
 - Optimize images for web (recommended size: 800x600px for blog, 600x400px for portfolio)
 - Maintain aspect ratios for consistent design
+
+## 🖥️ Company Presentation
+
+A branded slide deck is available at `presentation.html`, built with [reveal.js](https://revealjs.com/) and styled to match the site's color scheme and typography. It covers:
+
+- Company overview and key stats
+- Mission, vision, and core values
+- Services offered
+- Strategic objectives
+- Organizational structure
+- Team and contact information
+
+Navigate slides with the arrow keys, on-screen controls, or by swiping on touch devices. A matching PowerPoint file (`AiCOD_Solutions_Company_Presentation.pptx`) is available for download directly from the deck's final slide, for offline presentations.
+
+To regenerate the `.pptx` after updating the slide content, install `python-pptx` and run:
+
+```bash
+pip install python-pptx
+python3 scripts/generate_pptx.py
+```
 
 ## 📱 Responsive Design
 
